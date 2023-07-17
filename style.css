@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Universal Design */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 4% 7%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Header Section Design */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    color: #3A3A3A;
+    font-size: 26px;
+}
+
+ul {
+    display: flex;
+}
+
+li a {
+    margin-left: 30px;
+    font-size: 18px;
+    color: #3A3A3A;
+}
+
+.nav-icon {
+    color: #000000;
+}
