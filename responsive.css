@@ -22,6 +22,18 @@
         justify-content: center;
     }
 
+    .feature-title {
+        font-size: 22px;
+        margin-top: 0px;
+    }
+
+
+    .feature-des {
+        font-size: 14px;
+        width: 100%;
+
+    }
+
 }
 
 @media screen and (max-width: 868px) {
@@ -89,6 +101,21 @@
         text-align: center;
     }
 
+    .feature-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .feature-title {
+        margin-top: 50px;
+    }
+
+
+    .feature-des {
+        font-size: 14px;
+        width: 100%;
+
+    }
 
 }
 
