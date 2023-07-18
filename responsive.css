@@ -1,5 +1,9 @@
 @media screen and (max-width: 1024px) {
 
+    .logo {
+        font-size: 28px;
+    }
+
     .title {
         font-size: 30px;
     }
@@ -21,8 +25,9 @@
 }
 
 @media screen and (max-width: 868px) {
-    .title {
-        font-size: 25px;
+    .logo {
+        font-size: 28px;
+
     }
 
     .pc-nav {
@@ -32,17 +37,33 @@
     .mobile-nav {
         display: flex;
         align-items: center;
-        font-size: 25px;
+        font-size: 28px;
         justify-content: space-between;
         margin-bottom: 25px;
     }
+
+    .title {
+        font-size: 30px;
+    }
+
+
 
 }
 
 @media screen and (max-width: 772px) {
 
-    .title {
+
+    .logo {
         font-size: 25px;
+    }
+
+    .mobile-nav {
+        font-size: 25px;
+    }
+
+
+    .title {
+        font-size: 30px;
     }
 
     .banner-content {
@@ -62,9 +83,26 @@
     }
 
 
+    .see-more-btn {
+        color: #E02C6D;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (max-width: 567px) {
+    .logo {
+        font-size: 22px;
+    }
+
+    .mobile-nav {
+        font-size: 22px;
+    }
+
+
+
     section {
         padding: 4%;
     }

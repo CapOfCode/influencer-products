@@ -35,6 +35,10 @@ button {
     border-radius: 25px;
 }
 
+.fa-arrow-right {
+    margin-left: 5px;
+}
+
 /* Header Section Design */
 
 nav {
@@ -162,6 +166,7 @@ li a {
     color: #18191F;
     font-size: 28px;
     font-weight: 600;
+    margin: 15px 0 0 0;
 }
 
 .product-price {
@@ -185,4 +190,11 @@ li a {
 .product-des {
     color: #787885;
     font-family: 'Inter', sans-serif;
+}
+
+
+.see-more-btn {
+    color: #E02C6D;
+    margin-top: 40px;
+    text-align: right;
 }
